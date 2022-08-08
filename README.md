@@ -160,12 +160,12 @@ When everything is set up, you will be happy to get the following results with t
 > vagrant up
 
 ```shell
-PS D:\vagrant_projects\perl_projects> vagrant up
+PS D:\vagrant_projects\vagrant-ansible-docker-env> vagrant up
 Bringing machine 'default' up with 'virtualbox' provider...
 ==> default: Importing base box 'ubuntu/focal64'...
 ==> default: Matching MAC address for NAT networking...
 ==> default: Checking if box 'ubuntu/focal64' version '20220804.0.0' is up to date...
-==> default: Setting the name of the VM: perl_projects_default_1659985304505_52969
+==> default: Setting the name of the VM: vagrant-ansible-docker-env_default_1659985304505_52969
 ==> default: Clearing any previously set network interfaces...
 ==> default: Preparing network interfaces based on configuration...
     default: Adapter 1: nat
@@ -192,7 +192,7 @@ Bringing machine 'default' up with 'virtualbox' provider...
 ==> default: Machine booted and ready!
 ==> default: Checking for guest additions in VM...
 ==> default: Mounting shared folders...
-    default: /vagrant => D:/vagrant_projects/perl_projects
+    default: /vagrant => D:/vagrant_projects/vagrant-ansible-docker-env
 ==> default: Running provisioner: ansible_local...
     default: Installing Ansible...
     default: Installing pip... (for Ansible installation)
@@ -255,7 +255,7 @@ changed: [default]
 PLAY RECAP *********************************************************************
 default                    : ok=8    changed=7    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0
 
-PS D:\vagrant_projects\perl_projects>
+PS D:\vagrant_projects\vagrant-ansible-docker-env>
 ```
 
 ## Validate our Docker environment
@@ -269,7 +269,7 @@ The connection with vagrant is made with the command:
 > vagrant ssh
 
 ```powershell
-PS D:\vagrant_projects\perl_projects> vagrant ssh
+PS D:\vagrant_projects\vagrant-ansible-docker-env> vagrant ssh
 Welcome to Ubuntu 20.04.4 LTS (GNU/Linux 5.4.0-122-generic x86_64)
 
  * Documentation:  https://help.ubuntu.com
