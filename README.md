@@ -1,5 +1,7 @@
 # Preparing Docker environment with Vagrant and ansible_local provisioner
 
+![Banner](media/vagrant-ansible-docker-env.drawio.png)
+
 I use Vagrant to build and experiment with my work. It allows me to try and fail often and quickly to find the best architecture for my projects. I learned how to build a minimal kubernetes cluster with it. I defined the best path to migrate an openldap infrastructure for 200K users. 
 
 >Vagrant has been in my toolbox since 2014 or so. It has been a long time and I am still happy to use it. 
