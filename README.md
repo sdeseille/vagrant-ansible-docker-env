@@ -298,12 +298,6 @@ You just have to use following command:
 > sudo docker run hello-world
 
 ```bash
-vagrant@ubuntu-focal:~$ lsb_release -a
-No LSB modules are available.
-Distributor ID: Ubuntu
-Description:    Ubuntu 20.04.4 LTS
-Release:        20.04
-Codename:       focal
 vagrant@ubuntu-focal:~$ sudo docker run hello-world
 Unable to find image 'hello-world:latest' locally
 latest: Pulling from library/hello-world
