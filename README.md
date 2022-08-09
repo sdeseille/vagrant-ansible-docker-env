@@ -161,7 +161,7 @@ When everything is set up, you will be happy to get the following results with t
 
 > vagrant up
 
-```shell
+```text
 PS D:\vagrant_projects\vagrant-ansible-docker-env> vagrant up
 Bringing machine 'default' up with 'virtualbox' provider...
 ==> default: Importing base box 'ubuntu/focal64'...
